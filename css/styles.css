@@ -96,7 +96,7 @@ img {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .header-container {
@@ -352,6 +352,7 @@ img {
     align-items: flex-start;
     margin-right: 20px;
     vertical-align: top;
+    z-index: 100;
 }
 
 .quotes {
@@ -371,11 +372,12 @@ img {
     position: absolute;
     height: 650px;
     right: 0px;
-    width: 60%;
+    width: 55%;
 }
 
 .what-costumers-say .section-container {
     display: flex;
+    flex: 1;
 }
 
 .quotes-content-container {
@@ -450,6 +452,10 @@ img {
     display: flex;
     flex-grow: 0;
     flex-shrink: 1;
+}
+
+.quotes-big-container {
+    position: absolute;
 }
 
 /* Subscribe section */
@@ -572,28 +578,8 @@ footer p {
         margin-top: 1000px;
     }
 
-    .quotes-content-container {
-        margin-top: 280px;
-    }
-
-    .orange-background {
-        margin-top: 180px;
-        width: 90%;
-    }
-
     .subscribe-today {
-        margin-top: 180px;
         margin-bottom: 70px;
-    }
-
-    .quote-card {
-        /* min-width: 130px; */
-        display: inline-block;
-    }
-
-    .quote-cards {
-        overflow: auto;
-        white-space: nowrap;
     }
 
     .why-better-description {
@@ -611,16 +597,46 @@ footer p {
 
     .quotes-image-sentence p {
         text-align: left;
-        font-size: 16px;
+        font-size: 18px;
         max-width: 140px;
         line-height: 20px;
+        z-index: 300;
     }
  
     .quotes-big {
-        height: 120px;
+        height: 140px;
     }
 
     .why-better-description-image {
         max-width: 300px;
+    }
+
+    .orange-background {
+        border-radius: 20px 0px 0px 20px;
+        background-color: #F8765E;
+        position: absolute;
+        height: 450px;
+        width: 85%;
+        margin-top: 100px;
+    }
+
+    .quote-container p {
+        text-align: left;
+    }
+
+    .quote-card {
+        min-width: 200px;
+    }
+
+    .quote-cards {
+        margin-top: 120px;
+        padding-left: 40px;
+    }
+
+    .what-costumers-say .section-container {
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        overflow: auto;
     }
 }
