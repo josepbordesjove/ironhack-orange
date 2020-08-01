@@ -456,6 +456,8 @@ img {
 
 .quotes-big-container {
     position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 /* Subscribe section */
@@ -638,5 +640,9 @@ footer p {
         padding: 0px;
         display: block;
         overflow: auto;
+    }
+
+    .info-block img {
+        width: initial;
     }
 }
