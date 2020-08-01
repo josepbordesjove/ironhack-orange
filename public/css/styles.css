@@ -190,13 +190,11 @@ img {
 }
 
 .subscribe-action input {
-    display: flex;
     flex: 1;
     margin-right: 5px;
 }
 
 .subscribe-action button {
-    display: flex;
     flex: 1;
     margin-right: 5px;
 }
