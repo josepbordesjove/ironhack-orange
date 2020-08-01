@@ -1,0 +1,626 @@
+/* Generic styles */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #F8765E;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: #F8765E;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #F8765E;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 { 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 20px;
+    border-style: none;
+    padding: 16px 25px;
+    margin: 20px;
+    font-size: 17px;
+    box-shadow: 0px 1px 5px #CDCDCD;
+}
+
+.gray {
+    color: #5B6C94;
+}
+
+.white {
+    color: white;
+}
+
+button {
+    border-radius: 20px;
+    background-color: #9BDBE7; 
+    height: 60px;
+    border-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 16px;
+    color: white;
+    box-shadow: 2px 2px 8px #00000014;
+    white-space: nowrap;
+}
+
+img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.section-container {
+    max-width: 1200px;
+    position: relative;
+    margin: 0px auto;
+    padding: 10px 20px;
+}
+
+/* Navigation bar styles */
+
+.navbar {
+    overflow: hidden;
+    background-color: #F8765E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.navigation-options {
+    display: flex;
+    flex: 1;
+}
+
+.navigation-options ul {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navigation-options li {
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* Newsletter styles */
+
+.newsletter-section {
+    padding-bottom: 200px;
+    background-color: #F8765E;
+    margin-top: 90px;
+}
+
+.newsletter-section h1 {
+    color: white;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-text {
+    display: flex;
+    flex: 1;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.hero-text h4 {
+    margin-right: 20px;
+}
+
+.hero-text p {
+    margin-right: 20px;
+}
+
+.mockup-image {
+    display: flex;
+    flex: 1;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.mockup-image img {
+    width: 100%;
+}
+
+.subscribe-action {
+    margin-top: 40px;
+    display: flex;
+    flex: 1;
+}
+
+.subscribe-action input {
+    display: flex;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.subscribe-action button {
+    display: flex;
+    flex: 1;
+    margin-right: 5px;
+}
+
+/* Info blocks */
+
+.blocks-section {
+    position: relative;
+}
+
+.info-blocks {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 20px;
+}
+
+.info-block {
+    padding: 35px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.info-block img {
+    width: 70%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block h4 {
+    color: #5B6C94;
+    font-weight: 400;
+    text-align: left;
+    margin: 0px;
+}
+
+.info-block p {
+    color: #5B6C94;
+    font-weight: 300;
+    text-align: left;
+}
+
+.underline {
+    background-color: #F8765E;
+    height: 5px;
+    width: 60px;
+    margin: 15px 0px 20px 0px;
+}
+
+/* Orange is better styles */
+
+.advantages-section {
+    margin-top: 450px;
+    margin-bottom: 50px;
+}
+
+.why-better-description {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.why-better-description-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-basis: 65%;
+    margin-left: 20px;
+}
+
+.why-better-description-image {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: 35%;
+}
+
+.why-better-description-image img {
+    width: 100%;
+    margin-right: 140px;
+}
+
+.why-better-description-text h1 {
+    color: #F8765E;
+    margin: 0px;
+    text-align: right;
+}
+
+.why-better-description-text h2 {
+    color: #5B6C94;
+    margin: 15px 0px 20px 0px;
+    text-align: right;
+}
+
+.why-better-description-text p {
+    color: #5B6C94;
+    text-align: right;
+}
+
+.why-better-description-text button {
+    margin: 15px 0px 20px 0px;
+    display: flex;
+}
+
+/* Customers opinion */
+
+.what-costumers-say {
+    height: 650px;
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.quotes-image-sentence {
+    position: absolute;
+    top: 0;
+}
+
+.quotes-image-sentence img {
+    position: relative;
+    z-index: -100;
+}
+
+.quotes-image-sentence p {
+    position: absolute;
+    top: 0;
+    line-height: 40px;
+    margin: 25px 0px 0px 25px;
+    color: #F8765E;
+    width: 250px;
+    font-size: 32px;
+}
+
+.quotes-big {
+    height: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.quotes {
+    height: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 20px;
+    vertical-align: top;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.orange-background {
+    border-radius: 20px 0px 0px 20px;
+    background-color: #F8765E;
+    position: absolute;
+    height: 650px;
+    right: 0px;
+    width: 60%;
+}
+
+.what-costumers-say .section-container {
+    display: flex;
+}
+
+.quotes-content-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quote-cards {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.quote-card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    max-width: 200px;
+    height: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.quote-card p {
+    font-weight: 400;
+}
+
+.quote-and-text {
+    display: flex;
+}
+
+.background-blue {
+    background-color: #9BDBE7;
+}
+
+.who-says-container {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.quote-container {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.quote-author {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.quote-author-separator {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 0px 2px;
+}
+
+.quote-author-origin {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+/* Subscribe section */
+
+.subscribe-today h1 {
+    text-align: center;
+}
+
+.subscribe-today h2 {
+    text-align: center;
+    color: #CDCDCD;
+}
+
+.subscribe-today {
+    margin-bottom: 140px;
+}
+
+.subscribe-action {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcribe-today-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer styles */
+
+footer {
+    height: 164px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    margin: 2px;
+}
+
+.footer-routes {
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 900px) {
+    .header-container {
+      flex-direction: column;
+    }
+
+    .navigation-options ul {
+        justify-content: center;
+        align-items: center;
+        padding-inline-start: 0px;
+    }
+
+    .navigation-options li {
+        display: flex;
+        flex: 1 0 33%;
+        justify-content: center;
+        align-items: center;
+        padding-inline-start: 0px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .mockup-image img {
+        max-height: 300px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .subscribe-action {
+        flex-direction: column;
+    }
+
+    p {
+        margin: 0px;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    input {
+        min-width: 80%;
+    }
+
+    .info-blocks { 
+        flex-direction: column;
+        max-width: 350px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .advantages-section {
+        margin-top: 1000px;
+    }
+
+    .quotes-content-container {
+        margin-top: 280px;
+    }
+
+    .orange-background {
+        margin-top: 180px;
+        width: 90%;
+    }
+
+    .subscribe-today {
+        margin-top: 180px;
+        margin-bottom: 70px;
+    }
+
+    .quote-card {
+        /* min-width: 130px; */
+        display: inline-block;
+    }
+
+    .quote-cards {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .why-better-description {
+        flex-direction: column;
+    }
+
+    .why-better-description-text {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .why-better-description-text p {
+        text-align: center;
+    }
+
+    .quotes-image-sentence p {
+        text-align: left;
+        font-size: 16px;
+        max-width: 140px;
+        line-height: 20px;
+    }
+ 
+    .quotes-big {
+        height: 120px;
+    }
+
+    .why-better-description-image {
+        max-width: 300px;
+    }
+}
